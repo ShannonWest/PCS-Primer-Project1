@@ -18,7 +18,7 @@ html h1 {
 body {
   font-size: 1.1em;
   font-family: "Helvetica Neue", Helvetica, Verdana, sans-serif;
-  background-color: #0f0f0f
+  background-color: #fff;
 }
 
 /* The container sits in the middle of the page and is a fixed width Reference: http://www.w3schools.com/css/css_boxmodel.asp
@@ -28,7 +28,7 @@ body {
   width: 900px;
   margin-left: auto;
   margin-right: auto;
-  background-color: #aaaaaa;
+  background-color: #E1F5FF;
   -webkit-border-radius: 10px;
   -moz-border-radius: 10px;
   border-radius: 10px;
