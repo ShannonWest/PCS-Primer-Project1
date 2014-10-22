@@ -11,6 +11,7 @@ Reference: http://www.w3schools.com/css/default.asp
 
 html h1 {
   margin: 0;
+  color: #2F79FF;
 }
 
 /* next we set up those properties that we want to apply everywhere that is visible on the page using the body selector. Notice the "font-family" */
@@ -24,8 +25,15 @@ body {
 /* The next set of styles pretty much just "open up" the page and create white space */
 
 header {
-  margin: 20px;
   clear: both;
+  margin: 20px;
+  width: 900px;
+  padding: 1em;
+  background-color: orange;
+}
+
+.main_logo {
+  float: right;
 }
 
 /* The container sits in the middle of the page and is a fixed width Reference: http://www.w3schools.com/css/css_boxmodel.asp
