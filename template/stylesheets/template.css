@@ -13,11 +13,14 @@ html h1 {
   margin: 0;
   color: #2F79FF;
   max-width: 250px;
+  font-family: Papyrus, fantasy;
 }
 
 html h2 {
   margin: 20px;
   color: #2F79FF;
+  font-family: Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif;
+  font-size: 16pt;
 }
 
 /* next we set up those properties that we want to apply everywhere that is visible on the page using the body selector. Notice the "font-family" */
@@ -60,6 +63,15 @@ nav {
   max-width: 300px;
 }
 
+ul {
+  list-style: none;
+}
+
+.headshot {
+  margin-left: 40px;
+  margin-top: 40px;
+}
+
 .articles {
   width: 70%;
   float: left;
@@ -69,6 +81,7 @@ nav {
 	
 .contact_information {
     margin-left: 20px;
+    margin-bottom: 10px;
 }
 
 /* we want the validation pages to appear on the right side of the page inside the container */
